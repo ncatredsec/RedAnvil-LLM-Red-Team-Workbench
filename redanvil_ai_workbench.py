@@ -7,6 +7,10 @@ Open:     http://127.0.0.1:5000
 
 Prompts are processed locally. This tool does not execute prompts against targets.
 Custom templates are stored as JSON beside this script (no database required).
+
+Developed by: Narendra Chellingi
+Contact:      +91 8985707779
+Email:        narendra.chellingi@gmail.com
 """
 
 from __future__ import annotations
