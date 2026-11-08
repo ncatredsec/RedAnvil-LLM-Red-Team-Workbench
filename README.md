@@ -286,7 +286,7 @@ ChatGPT subscriptions and OpenAI API billing are separate.
 The workbench stores the API key locally in:
 
 ```text
-llm\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_redteam\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_data/openai\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_api\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_key.txt
+llm_redteam_data/openai_api_key.txt
 ```
 
 The application can also remove the saved key through its configuration interface.
