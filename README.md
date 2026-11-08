@@ -164,7 +164,7 @@ Open PowerShell and navigate to the extracted folder.
 For example:
 
 ```powershell
-cd "$HOME\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Downloads\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\llm-red-team-workbench-release"
+cd "$HOME/Downloads/llm-red-team-workbench-release"
 ```
 
 Adjust the directory if you extracted the package somewhere else.
@@ -180,7 +180,7 @@ python -m venv .venv
 Activate it:
 
 ```powershell
-.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.venv\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Scripts\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Activate.ps1
+./.venv/Scripts/Activate.ps1
 ```
 
 If PowerShell blocks script execution for this session, run:
@@ -192,7 +192,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 Then activate the environment again:
 
 ```powershell
-.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.venv\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Scripts\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Activate.ps1
+./.venv/Scripts/Activate.ps1
 ```
 
 ## 4.2 Install dependencies
@@ -216,7 +216,7 @@ This installs the Python dependencies required by the workbench.
 Run:
 
 ```powershell
-python llm\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_redteam\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_workbench.py
+python llm_redteam_workbench.py
 ```
 
 The Flask application should start locally.
@@ -411,7 +411,7 @@ I have an existing Flask-based LLM Red-Team Workbench.
 Review the existing source code and understand how Ollama and OpenAI
 providers are integrated.
 
-I want to add support for \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\[MODEL / PROVIDER NAME].
+I want to add support for [MODEL / PROVIDER NAME].
 
 Please:
 
